@@ -37,7 +37,7 @@
     <!--Whether to proceed to next module if any test failures exist-->
     <maven.test.failure.ignore>true</maven.test.failure.ignore>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
-    <jetty.version>9.4.48.v20220622</jetty.version>
+    <jetty.version>9.4.53.v20231009</jetty.version>
     <test.exclude>_</test.exclude>
     <test.exclude.pattern>_</test.exclude.pattern>
 
@@ -97,7 +97,7 @@
     <hadoop-thirdparty-shaded-protobuf-prefix>${hadoop-thirdparty-shaded-prefix}.protobuf</hadoop-thirdparty-shaded-protobuf-prefix>
     <hadoop-thirdparty-shaded-guava-prefix>${hadoop-thirdparty-shaded-prefix}.com.google.common</hadoop-thirdparty-shaded-guava-prefix>
 
-    <zookeeper.version>3.6.3</zookeeper.version>
+    <zookeeper.version>3.7.2</zookeeper.version>
     <curator.version>5.2.0</curator.version>
     <findbugs.version>3.0.5</findbugs.version>
     <dnsjava.version>3.4.0</dnsjava.version>
